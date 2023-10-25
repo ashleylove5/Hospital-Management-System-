@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------
+
+#ifndef BackEndH
+#define BackEndH
+//---------------------------------------------------------------------------
+class THospital
+{
+	private:
+		AnsiString IdNo;
+		AnsiString Initials;
+	AnsiString Surname;
+		AnsiString FileNo;
+		AnsiString Diagnose;
+		AnsiString Gender;
+	public:
+		THospital();
+
+		void setHospital(AnsiString id,AnsiString ini,AnsiString surn,AnsiString Fno,AnsiString con,AnsiString gen);
+
+
+		void getHospital(AnsiString &id ,AnsiString &ini,AnsiString &surn,AnsiString &FNo,AnsiString &con,AnsiString &gen);
+
+};
+#endif
